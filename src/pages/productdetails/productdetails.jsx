@@ -26,7 +26,7 @@ function Productdetails()
         <div className="flex flex-col p-[8vw] absolute right-[20vw] top-[10vw] ">
                 <div><h2 className=" flex flex-row justify-start text-[2vw] m-1">{details.title}</h2></div>
                 <div className="flex flex-row justify-start  text-[25px] m-1">{details.price}</div>
-                <button className="border-solid w-40 shadow-lg rounded-lg h-12 text-center text-[25px] p-2"
+                <button className="border-solid w-40 shadow-lg rounded-lg h-12 text-center text-[25px] bg-transparent p-2"
                 onClick={()=>{handleaddcartitem(details)
                 }}>Add to cart</button>
         </div>
